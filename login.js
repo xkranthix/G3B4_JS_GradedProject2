@@ -1,3 +1,6 @@
+if (localStorage.getItem("username") !== null) {
+  window.location.href = "./resume.html";
+}
 document.querySelector(".resume").onclick = () => {
   localStorage.setItem("username", "admin");
   localStorage.setItem("pass", "admin");
